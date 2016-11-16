@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="../client/style.css">
+</head>
+<body background="/img/body.jpg">
+    <audio id="playBack">
+        <source src="../client/audio/gamePlayBack.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="gunFire">
+        <source src="../client/audio/gunFire.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="signDiv">
+        <div class="innerSignDiv">
+            <br>Username:<br>
+            <input class="aa" id="signDiv-username" type="text">
+            Password:<br>
+            <input class="aa" id="signDiv-password" type="password">
+            <br><br>
+            <button class="btn" id="signDiv-signIn">Sign In</button><br><br>
+            <button class="btn" id="signDiv-signUp">Sign Up</button>
+        </div>
+    </div>
+
+    <div id="gameDiv" class="gmDiv" style="" >
+        <canvas class="can" id="ctx" width="1000" height="650" style="border:1px solid #000000;"></canvas>
+    </div>
+
+    <div class="chatDiv" id="ctDiv" style="">
+
+        <div id="chat-text" class="ctTxt" style="width:330px; height:625px; overflow-y:scroll;">
+            <div class="sentText">Hello!</div>
+        </div>
+
+        <form id="chat-form" >
+            <input id="chat-input" type="text" style="width:330px;height:20px;">
+        </form>
+    </div>
+
+    <script src="../client/clientScript.js"></script>
+    
+    </body>
+</html>
+

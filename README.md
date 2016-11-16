@@ -1,4 +1,5 @@
 # seekNdestroy
-** ***Author: *** Sany Alam Shovon 
+** Author: ** 
+*Sany Alam Shovon 
 
 Prosen Ghosh**

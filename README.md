@@ -2,6 +2,4 @@
 
 **nodeJs Game Using socket.io**
 
-**Author:** *Sany Alam Shovon 
-
-Prosen Ghosh*
+**Author:** *Sany Alam Shovon And Prosen Ghosh*
